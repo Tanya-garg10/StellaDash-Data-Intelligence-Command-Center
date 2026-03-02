@@ -272,8 +272,6 @@ python3 -m pip install -r requirements.txt
 python3 -m uvicorn app:app --reload
 ```
 
----
-
 ### Frontend Issues
 
 #### ❌ "npm command not found"
@@ -314,8 +312,6 @@ npm run dev
 # Or clear browser cache
 ```
 
----
-
 ### CORS Issues
 
 #### ❌ "CORS policy blocked"
@@ -324,8 +320,6 @@ npm run dev
 # Check frontend API URL in .env.local
 # Restart both servers
 ```
-
----
 
 ### PDF Export Issues
 
@@ -338,9 +332,7 @@ npm run dev
 4. Check browser console for errors
 ```
 
----
-
-## Testing
+### Testing
 
 ### Test with Sample Data
 
@@ -376,8 +368,6 @@ sample_data/sales_sample.csv
 - Dashboard render: < 1 second
 - PDF export: 2-3 seconds
 ```
-
----
 
 ## Production Deployment
 
@@ -415,9 +405,7 @@ AWS_BUCKET_NAME=stelladash-uploads
 AWS_REGION=us-east-1
 ```
 
----
-
-## Development Tips
+### Development Tips
 
 ### Hot Reload
 Both servers support hot reload:
@@ -451,8 +439,6 @@ cd frontend
 npm run lint
 ```
 
----
-
 ## Next Steps
 
 1. ✅ **Customize UI** - Edit `frontend/components/Dashboard.js`
@@ -460,9 +446,7 @@ npm run lint
 3. ✅ **Deploy** - Follow production deployment guide
 4. ✅ **Share** - Show off your dashboard!
 
----
-
-## Support
+### Support
 
 ### Getting Help
 
