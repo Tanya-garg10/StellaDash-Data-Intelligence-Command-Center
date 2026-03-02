@@ -20,6 +20,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:3000",
         "http://localhost:3001",
+        "https://stella-dash-data-intelligence-comma-lake.vercel.app",
         "https://stella-dash-data-intelligence-comma-gold.vercel.app",
         "https://*.vercel.app"  # Allow all Vercel preview deployments
     ],
