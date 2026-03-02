@@ -483,7 +483,7 @@ npm run lint
 - 📖 Check [README.md](README.md) for overview
 - 🐛 Check [Troubleshooting](#troubleshooting) section
 - 💬 Open GitHub issue
-- 📧 Contact: [your-email@example.com]
+- 📧 Contact: tanyagarg5315@gmail.com
 
 ### Useful Links
 
@@ -508,6 +508,6 @@ If you've made it here, your StellaDash is ready to use!
 
 ---
 
-**Made with 💜 by [Your Name]**
+**Made with 💜 by Tanya Garg**
 
 ⭐ Star the repo if this helped you!
