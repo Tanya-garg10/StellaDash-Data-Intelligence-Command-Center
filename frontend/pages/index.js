@@ -15,7 +15,7 @@ export default function Home() {
         formData.append('file', file)
 
         try {
-            const response = await axios.post('http://localhost:8000/api/upload', formData)
+            const response = await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/api/upload`, formData)
             setData(response.data)
         } catch (error) {
             console.error('Upload failed:', error)

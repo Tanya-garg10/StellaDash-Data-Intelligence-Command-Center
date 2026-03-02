@@ -117,9 +117,9 @@ vercel
 3. Import your Git repository
 4. Configure:
    - Framework Preset: Next.js
-   - Root Directory: `frontend`
-   - Build Command: `npm run build`
-   - Output Directory: `.next`
+   - Root Directory: frontend
+   - Build Command: npm run build
+   - Output Directory: .next
 5. Add Environment Variables:
    ```
    NEXT_PUBLIC_API_URL=https://your-backend-url.com

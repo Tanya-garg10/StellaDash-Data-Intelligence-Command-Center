@@ -28,7 +28,7 @@ export default function Dashboard({ data, onReset }) {
         setSelectedFilters(newFilters)
 
         try {
-            const response = await axios.post('http://localhost:8000/api/filter', {
+            const response = await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/api/filter`, {
                 data_id: profile.data_id,
                 filters: newFilters
             })
@@ -48,7 +48,7 @@ export default function Dashboard({ data, onReset }) {
 
         setChatLoading(true)
         try {
-            const response = await axios.post('http://localhost:8000/api/chat', {
+            const response = await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/api/chat`, {
                 question: chatQuestion,
                 data_id: profile.data_id,
                 api_key: apiKey,
