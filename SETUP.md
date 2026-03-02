@@ -10,8 +10,6 @@ This guide will help you set up StellaDash from scratch in under 10 minutes!
 - [Troubleshooting](#troubleshooting)
 - [Testing](#testing)
 
----
-
 ## Prerequisites
 
 Before you begin, ensure you have:
@@ -36,8 +34,6 @@ python --version  # Should be 3.9 or higher
 # Check npm version
 npm --version
 ```
-
----
 
 ## Quick Start
 
@@ -78,8 +74,6 @@ npm run dev
 1. Open browser: http://localhost:3000
 2. Upload `sample_data/sales_sample.csv`
 3. Explore your dashboard! 🎉
-
----
 
 ## Detailed Setup
 
@@ -137,8 +131,6 @@ curl http://localhost:8000
 # Should return: {"status": "StellaDash API Running"}
 ```
 
----
-
 ### Frontend Setup
 
 #### Step 1: Install Node Dependencies
@@ -182,8 +174,6 @@ npm run dev
 **Test Frontend:**
 Open browser: http://localhost:3000
 
----
-
 ## Optional Features
 
 ### 🤖 Enable AI Chat (Gemini API)
@@ -210,8 +200,6 @@ uvicorn app:app --reload
 2. Scroll to "Ask Your Data" section
 3. Enter your API key in the UI
 4. Ask questions like "What is the average age?"
-
----
 
 ### ☁️ Enable AWS S3 Storage
 
@@ -250,8 +238,6 @@ uvicorn app:app --reload
 1. Upload a CSV file
 2. Check dashboard - should show "☁️ Stored in AWS S3"
 3. Verify in AWS Console → S3 → your bucket
-
----
 
 ## Troubleshooting
 
@@ -493,8 +479,6 @@ npm run lint
 - [TailwindCSS Docs](https://tailwindcss.com/docs)
 - [Recharts Docs](https://recharts.org/)
 
----
-
 ## Success! 🎉
 
 If you've made it here, your StellaDash is ready to use!
@@ -506,8 +490,4 @@ If you've made it here, your StellaDash is ready to use!
 4. Export PDF
 5. Share with friends! 🚀
 
----
-
-**Made with 💜 by Tanya Garg**
-
-⭐ Star the repo if this helped you!
+Made with 💜 
