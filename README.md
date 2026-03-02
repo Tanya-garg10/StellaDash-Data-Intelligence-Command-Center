@@ -3,7 +3,6 @@
 > Transform your CSV/Excel data into stunning interactive dashboards instantly!
 
 ![StellaDash](https://img.shields.io/badge/Status-Production%20Ready-success)
-![License](https://img.shields.io/badge/License-MIT-blue)
 ![Next.js](https://img.shields.io/badge/Next.js-14.1-black)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.109-green)
 
@@ -213,28 +212,6 @@ Use the included `sample_data/sales_sample.csv` to test:
 - Treatment outcome tracking
 - Medical research insights
 
-## 🏆 Hackathon Ready
-
-### Why StellaDash Stands Out
-
-1. **Instant Demo** - Upload CSV, get dashboard in seconds
-2. **Professional UI** - Power BI-style design impresses judges
-3. **Real Product** - Solves actual business problem
-4. **Scalable** - Handles 50K+ rows smoothly
-5. **AWS Integration** - Shows cloud architecture knowledge
-
-### Demo Script (2-3 minutes)
-
-```
-1. "StellaDash transforms raw data into insights instantly"
-2. Upload Insurance_Dataset.xlsx (50K rows)
-3. Show auto-generated KPI cards
-4. Filter by Region → charts update live
-5. Show insights: correlations, missing data
-6. Export PDF → professional report
-7. "Stored securely in AWS S3"
-```
-
 ## 🐛 Troubleshooting
 
 ### Backend not starting?
@@ -297,14 +274,6 @@ Contributions welcome! Please follow these steps:
 4. Push to branch (`git push origin feature/AmazingFeature`)
 5. Open Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 👥 Team
-
-Built with ❤️ for hackathons and data enthusiasts
-
 ## 🙏 Acknowledgments
 
 - Next.js team for amazing framework
@@ -317,10 +286,8 @@ Built with ❤️ for hackathons and data enthusiasts
 Having issues? 
 - Check [Troubleshooting](#-troubleshooting) section
 - Open an issue on GitHub
-- Contact: [your-email@example.com]
-
----
+- Contact: tanyagarg5315@gmail.com
 
 ⭐ **Star this repo if you found it helpful!**
 
-Made with 💜 by [Your Name]
+Made with 💜 by Tanya Garg
